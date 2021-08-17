@@ -12,9 +12,9 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <div class="site-heading">
-          <h1>Angela's Blog</h1>
+          <h1>The lorem ipsum</h1>
           <span class="subheading"
-            >A collection of Angela's random musings.</span
+            >A collection of lorem ipsums and their consectetur.</span
           >
         </div>
       </div>
@@ -36,6 +36,7 @@
           Posted by
           <a href="#">{{post.author}}</a>
           on {{post.date}}
+          <a href="{{url_for('delete_post', post_id=post.id) }}">✘</a>
         </p>
       </div>
       <hr />
